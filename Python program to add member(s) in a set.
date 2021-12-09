@@ -1,0 +1,9 @@
+# Write a Python program to add member(s) in a set.
+s = set()
+d = {3, 6, 8}
+s.add(2)
+print(s)
+s.update(d)
+print(s)
+s.remove(6)
+print(s)
